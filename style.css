@@ -1,0 +1,190 @@
+*{
+/*กำหนด   font    ให้กับเวบไซว์*/ 
+font-family :Arial, Helvetica, sans-serif;
+
+/*กำหนดรูปแบบ link*/ 
+text-decoration:none;
+margin: 0; 
+padding: 0 ;
+box-sizing: 0 ;
+}
+
+/*-----tabla style------*/
+ /*-----ตั้งค่าการแสดงผลของตาราง-----*/
+ .styled-tabel{
+  width: 100 ;
+  border-collapse: collapse;
+  margin: 25px 0 ;
+  font-family: Arial, Helvetica, sans-serif;
+
+ }
+ /* ตกแต่งหัวข้อตาราง */
+ .styled-tabel th{ 
+     background-color: #a35c7a;
+     color: #f3e9e9;
+     text-align: center;
+     padding: 12px 15px ;
+     font-size: 16px ;
+ }  
+ /*ตกแต่งแถวตาราง  */
+ .styled-tabel td { 
+     font-size: 14px ;
+     text-align: center ;
+     padding: 8px 12px ;
+ }
+.styled-tabel tr:hover{ 
+    background-color: #cfb6c8;
+}
+/*ตกแต่งเส้นขอบตาราง  */
+.styled-tabel, .styled-tabel th, .styled-tabel td { 
+    border: 1px solid #a35c7a;
+}
+/*----menu----*/
+.container{
+    max-width: 1140px ;
+    margin: 0 auto;
+} 
+.vav{
+    background-color: #474849; 
+    overflow: hidden;
+
+}
+.nav-con{
+    display: flex;
+    justify-content: space-between; 
+    list-style: none;
+    margin: 10px ;
+    padding: 14px 16px ;
+}
+.menu{
+    display: flex;
+    overflow: hidden;
+}
+/* dropdowmenu */
+/* navber container  */
+.navber{
+    overflow: hidden;
+    background-color: #474849;
+}
+/*link */
+.navber a{
+    float: left;
+    font-size: 14px ;
+    color: #ffff ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none ;
+
+}
+/*dropdown-bpn */
+.dropdown .dropdownbtn{
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: #ffff;
+    padding: 16px;
+    background-color: inherit;
+    margin: 0;
+}
+.navber a:hover,.dropdown:hover .dropbtn{
+    background-color: #f41c1c;
+
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #ffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)
+    z-index: 1;
+}
+/* link inside dropdown */
+.drowdown-content a{
+    float: none;
+    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+}
+.dropdown-content a:hover:{
+    background-color: #ddd;
+    .dropdown:hover .dropdown-content
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navar {
+overflow: hidden;
+background-color: #ffff; 
+}
+/*link*/
+.navar a{ 
+  float:left;
+  font: size 14px;
+  color: #fff; 
+  padding: 14px;
+  background-color: #ffff;
+  margin: 0;
+}
+.navar a :hover,.dropdown.hovar .dropbtn{
+    background-color:#f41c1c;
+
+}
+.dropdown-content{
+    display:none;
+    position:absolute;
+    background-color: #ffff;
+    min-width: 160px;
+    
+
+}
+/*link inside dropdown */
+.dropdown-content{
+    float:left;
+    font: size 14px;
+    color: #fff; 
+    padding: 14px;
+    background-color: burlywood;
+    margin: 0;
+
+
+}
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
